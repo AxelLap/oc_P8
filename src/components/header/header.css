@@ -1,0 +1,44 @@
+header {
+    background-color: #02145D;
+    color: white;
+    display: flex;
+
+    height: 40px;
+    width: 100vw;
+    box-sizing: border-box;
+
+    border: solid 1px black;
+
+
+
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0px 5%;
+    position: fixed;
+    top: 0px;
+    z-index: 2;
+}
+
+.logoBox {
+    height: 30px;
+    width: 60px;
+    margin: 10px;
+    text-align: center;
+    border: solid 1px black;
+
+}
+
+ul {
+    display: flex;
+    gap: 25px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
