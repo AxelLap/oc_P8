@@ -1,0 +1,26 @@
+.squareIconWrapper {
+
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    width: fit-content;
+    min-width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border: solid 1px black;
+
+}
+
+.squareIcon {
+    height: 90%;
+    width: 90%;
+    object-fit: contain;
+    border-radius: 30px;
+}
+
+.express {
+    height: 100%;
+    object-fit: cover;
+}

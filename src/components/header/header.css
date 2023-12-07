@@ -1,17 +1,19 @@
 header {
-    background-color: #02145D;
+    background: #667db6;
+    /* fallback for old browsers */
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #02145D, #0082c8, #0082c8, #02145D);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     color: white;
     display: flex;
 
-    height: 40px;
+    height: 10vh;
     width: 100vw;
     box-sizing: border-box;
 
-    border: solid 1px black;
-
-
-
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 
     padding: 0px 5%;
@@ -30,6 +32,7 @@ header {
 }
 
 ul {
+    padding: 0px;
     display: flex;
     gap: 25px;
 }

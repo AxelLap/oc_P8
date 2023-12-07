@@ -1,0 +1,108 @@
+.sliderWrapper {
+    margin: 7vh auto;
+    height: 60vh;
+    width: 80%;
+    overflow: hidden;
+    flex-wrap: nowrap;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    box-shadow: inset 2px 15px 35px -25px #000000;
+
+}
+
+.skillsWrapper {
+    display: flex;
+    flex-wrap: nowrap;
+
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    align-items: flex-start;
+    animation: slider 11s infinite;
+    z-index: 1;
+}
+
+@keyframes slider {
+
+    0%,
+    30% {
+        transform: translateX(0);
+    }
+
+    33%,
+    63% {
+        transform: translateX(-100%)
+    }
+
+    66%,
+    96% {
+        transform: translateX(-200%)
+    }
+
+
+
+    100% {
+        transform: translateX(-300%)
+    }
+}
+
+.itemBox {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+
+    justify-content: center;
+
+    z-index: 2;
+    flex-shrink: 0;
+}
+
+
+.skillTitle {
+    display: flex;
+    height: fit-content;
+    width: 100%;
+    color: #02145D;
+    font-size: 1.5em;
+
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    flex-shrink: 0;
+
+}
+
+.imagesWrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+
+.mainPic {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background: fixed;
+    top: 0px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.iconsWrapper {
+    position: relative;
+    bottom: 0px;
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    background-color: transparent;
+    position: absolute;
+    bottom: 0px;
+    gap: 10px;
+    padding-bottom: 5px;
+}
