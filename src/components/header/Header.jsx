@@ -1,4 +1,6 @@
 import './header.css'
+import git from '../../assets/git.png'
+import NavBtn from '../navbtn/NavBtn'
 
 function Header() {
     return (
@@ -6,10 +8,21 @@ function Header() {
 
             <nav>
                 <ul>
-                    <li><a className='navItem' href='#'>Mes travaux</a></li>
-                    <li><a className='navItem' href='#'>Compétences</a></li>
-                    <li><a className='navItem' href='#'>Contacts</a></li>
+                    <NavBtn
+                        goTo={'Mes compétences'}
+                        scrollValue={0}
+                    />
+
+                    <NavBtn
+                        goTo={'Mes projets'}
+                        scrollValue={(window.innerHeight) * 0.9}
+                    />
+                    <NavBtn
+                        goTo={'À Propos'}
+                        scrollValue={((window.innerHeight) * 0.9) * 2}
+                    />
                 </ul>
+                <img src={git} alt="Logo git-hub" className="gitLogo" />
             </nav>
         </header>
     )

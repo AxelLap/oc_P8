@@ -1,0 +1,32 @@
+li {
+    list-style: none;
+}
+
+.navItem {
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+    border: none;
+    font-size: 1.3em;
+
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+li:hover .line {
+    width: 100%;
+    transition: all 0.2s ease;
+}
+
+.navItem:hover {
+    letter-spacing: 2px;
+    transition: all 0.2s ease;
+}
+
+.line {
+    height: 2px;
+    width: 0px;
+    background-color: #02145D;
+    transition: all 0.2s ease;
+}

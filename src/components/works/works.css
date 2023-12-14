@@ -2,35 +2,52 @@
     position: absolute;
     top: 100vh;
     width: 100vw;
-    height: 100vh;
+    height: 90vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-
     box-sizing: border-box;
+    color: #02145D;
+
+}
+
+.workTitle {
+    margin-bottom: 5px;
 }
 
 .worksContainer {
-    height: 90%;
-    width: 90%;
+    height: 45%;
+    width: 100%;
     box-sizing: border-box;
-    padding: 10px 25px;
-
+    padding: 5px 15px;
     display: flex;
-
     justify-content: center;
-    align-items: flex-start;
-
-
-    flex-wrap: wrap;
+    align-items: center;
+    /* flex-wrap: wrap; */
 }
 
+
 .work {
-    width: 30%;
-    height: 40%;
+    width: 35%;
+    height: 90%;
     margin: 0px 25px;
     padding: 0px;
     border: solid 1px black;
     border-radius: 30px;
     text-align: center;
+    transition: all 0.3s ease;
+}
+
+.work:hover {
+    height: 100%;
+    width: 40%;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.workImg {
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+    object-fit: cover;
 }

@@ -1,0 +1,53 @@
+.dropDownBtn {
+    height: 30px;
+    width: 50px;
+    position: absolute;
+    bottom: 10px;
+    border: solid 1px #02145D;
+    border-radius: 10px;
+    background-color: #FFFFF9;
+    cursor: pointer;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease-in-out 0.3s;
+}
+
+.returnOnTop {
+    transform: rotate(180deg);
+    bottom: 0px;
+}
+
+.dropDownBtn:hover {
+    background-color: #02145D;
+    transition: all ease-in-out 0.3s;
+}
+
+.dropDownBtn:hover .fa-chevron-down {
+    color: #FFFFF9;
+    transition: all ease-in-out 0.3s;
+}
+
+.dropDownLink {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-chevron-down {
+    color: #02145D;
+    font-size: 30px;
+    width: 100%;
+
+    margin: 0px;
+    padding: 0px;
+
+    text-align: center;
+    transition: all ease-in-out 0.3s;
+
+}

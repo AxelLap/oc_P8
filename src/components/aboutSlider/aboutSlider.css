@@ -1,6 +1,6 @@
 .sliderWrapper {
-    margin: 7vh auto;
-    height: 60vh;
+    margin: 60px auto 80px;
+    height: 70%;
     width: 80%;
     overflow: hidden;
     flex-wrap: nowrap;
@@ -19,7 +19,7 @@
     width: 100%;
     margin: 0;
     align-items: flex-start;
-    animation: slider 11s infinite;
+    animation: slider 9s infinite ease;
     z-index: 1;
 }
 

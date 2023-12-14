@@ -1,5 +1,5 @@
 header {
-    background: #667db6;
+
     /* fallback for old browsers */
 
     /* Chrome 10-25, Safari 5.1-6 */
@@ -8,6 +8,7 @@ header {
 
     color: white;
     display: flex;
+    border-bottom: solid 2px white;
 
     height: 10vh;
     width: 100vw;
@@ -34,14 +35,15 @@ header {
 ul {
     padding: 0px;
     display: flex;
-    gap: 25px;
+    gap: 40px;
 }
 
-li {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-    color: white;
+.gitLogo {
+    position: absolute;
+    right: 5px;
+    top: 9px;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: solid 2px white;
 }
