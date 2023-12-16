@@ -1,0 +1,70 @@
+.workPageSection {
+    height: 90vh;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 11vh auto 1vh;
+    box-sizing: border-box;
+}
+
+.titleContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10vh;
+}
+
+.return {
+    color: black;
+}
+
+.currentWorkTitle {
+
+    margin-bottom: 1vh;
+}
+
+.workDescription {
+    width: 80%;
+    margin: 2vh auto 2vh;
+    text-align: center;
+}
+
+.workSlider {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.sliderImg {
+    width: 60%;
+    height: 100%;
+    margin: auto;
+    margin: 1vh auto 1vh;
+    border-radius: 30px;
+    border: solid 1px black;
+    object-fit: cover;
+}
+
+.leftChevron {
+    position: absolute;
+    top: 50%;
+    left: 10vw;
+    transform: rotate(90deg);
+}
+
+.counter {
+    width: 5%;
+    display: flex;
+    margin: auto;
+}
+
+
+.rightChevron {
+    position: absolute;
+    top: 50%;
+    right: 10vw;
+    transform: rotate(-90deg);
+}

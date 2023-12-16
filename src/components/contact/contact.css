@@ -54,6 +54,18 @@
     width: 100%;
 }
 
+
+.tools {
+    font-size: 1.3em;
+}
+
+.iconsContainer {
+    display: flex;
+    border: solid 1px black;
+    width: 100%;
+    height: auto;
+}
+
 .contactSection {
     width: 100vw;
     height: 45%;

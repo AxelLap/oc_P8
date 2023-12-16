@@ -5,6 +5,7 @@ import './index.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import Home from './pages/home/Home';
+import WorkPage from './pages/workpage/WorkPage';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -12,10 +13,10 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={Element}></Route>
+        <Route path='/' element={<Home />}></Route>
+        <Route path='/work/:id' element={<WorkPage />}></Route>
       </Routes>
     </BrowserRouter>
-    <Home />
   </React.StrictMode>
 );
 
