@@ -22,7 +22,9 @@ function Header() {
                         scrollValue={((window.innerHeight) * 0.9) * 2}
                     />
                 </ul>
-                <img src={git} alt="Logo git-hub" className="gitLogo" />
+                <a href='https://github.com/AxelLap' target='_blank' rel="noreferrer">
+                    <img src={git} alt="Logo git-hub" className="gitLogo" />
+                </a>
             </nav>
         </header>
     )

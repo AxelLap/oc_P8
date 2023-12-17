@@ -10,20 +10,31 @@
     align-items: center;
 }
 
-.ntrduceTitle {
+.introduceWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60%;
+}
+
+.intrduceTitle {
     height: 10%;
     box-sizing: border-box;
+    margin-top: -50px;
 }
 
 .profileContainer {
-    width: 80%;
-    height: 45%;
+    width: 70%;
+
     margin: 0px auto;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
     padding: 0px;
     box-sizing: border-box;
+
+
 
 }
 
@@ -38,8 +49,8 @@
     justify-content: center;
     align-items: center;
     transition: all ease-in-out 0.2s;
-    margin-left: auto;
-    margin-right: 10px;
+    margin-left: 5%;
+    margin-right: 0px;
 
 }
 
@@ -68,20 +79,31 @@
 
 .contactSection {
     width: 100vw;
-    height: 45%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
     position: relative;
+    bottom: 30px;
+}
+
+.contactTitle {
+    margin-top: 2%;
 }
 
 .contactContent {
     display: flex;
+    flex-direction: column;
     width: 100%;
     justify-content: center;
     align-items: center;
+
+}
+
+.contactText {
+    font-size: 1.5em;
+    margin-right: 20px;
 }
 
 .emailLink {
@@ -91,18 +113,53 @@
 }
 
 .linkLogo {
-    height: 100px;
-    width: 100px;
+    height: 60px;
+    width: 60px;
     margin: 10px 40px;
     border: solid 1px black;
-    border-radius: 50%;
+    border-radius: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.networkWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkLogo:hover {
+    background-color: rgba(2, 20, 93, 1);
+    transition: all 0.2s ease;
+}
+
+.linkLogo:hover>i {
+    color: white;
+    transition: all 0.2s ease;
+}
+
+.fa-x-twitter,
+.fa-linkedin-in {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+    width: 60%;
+    font-size: 3em;
+    text-align: center;
+    transition: all 0.2s ease;
 }
 
 .logoContacts {
     height: 80%;
     width: 80%;
     border-radius: 50%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
