@@ -30,3 +30,9 @@ li:hover .line {
     background-color: #02145D;
     transition: all 0.2s ease;
 }
+
+@media (max-width: 667.99px) {
+    .navItem {
+        font-size: 1em;
+    }
+}

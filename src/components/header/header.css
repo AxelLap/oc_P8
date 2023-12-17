@@ -23,14 +23,8 @@ header {
     z-index: 2;
 }
 
-.logoBox {
-    height: 30px;
-    width: 60px;
-    margin: 10px;
-    text-align: center;
-    border: solid 1px black;
 
-}
+
 
 ul {
     padding: 0px;
@@ -40,10 +34,49 @@ ul {
 
 .gitLogo {
     position: absolute;
-    right: 5px;
-    top: 9px;
-    height: 70px;
-    width: 70px;
+    right: 15px;
+    top: 3vh;
+    height: 9vh;
+    width: 9vh;
     border-radius: 50%;
     border: solid 2px white;
+}
+
+.mailLogo {
+    position: absolute;
+    left: 15px;
+    top: 3vh;
+    height: 9vh;
+    width: 9vh;
+    border-radius: 50%;
+    border: solid 2px white;
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-envelope {
+    font-size: 3em;
+    text-align: center;
+    margin-right: 1px;
+}
+
+@media (max-width: 667.99px) {
+    header {
+        height: 60px;
+    }
+
+    header ul {
+        gap: 20px;
+    }
+
+    .gitLogo,
+    .mailLogo {
+        height: 40px;
+        width: 40px;
+        font-size: 0.5em;
+    }
 }

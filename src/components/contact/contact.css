@@ -153,6 +153,11 @@
     transition: all 0.2s ease;
 }
 
+.networkContainer {
+    display: flex;
+    width: fit-content;
+}
+
 .logoContacts {
     height: 80%;
     width: 80%;
@@ -162,4 +167,87 @@
 a {
     text-decoration: none;
     color: black;
+}
+
+@media (max-width: 667.99px) {
+    .introducing {
+        top: 2830px;
+        height: 1000px;
+        justify-content: flex-start;
+
+    }
+
+    .introduceWrapper {
+        flex-direction: column;
+        justify-content: flex-start;
+        height: 100%;
+    }
+
+    .profile {
+        box-shadow: none;
+    }
+
+    .profileContainer {
+        width: 90%;
+    }
+
+    .intrduceTitle {
+        margin: 25px;
+    }
+
+    .introduceText {
+        margin: 25px auto;
+        font-size: 1.2em;
+    }
+
+    .contactSection {
+        position: absolute;
+        top: 980px;
+
+    }
+
+    .contactTitle {
+        margin: 35px auto 10px;
+    }
+
+    .contactContent {
+        width: 90%;
+    }
+
+    .contactText {
+        font-size: 1.3em;
+        text-align: center;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .networkWrapper {
+        flex-direction: column;
+    }
+
+    .networkContainer {
+        width: 90%;
+        margin: auto;
+    }
+}
+
+@media (max-width: 576px) {
+    .contactSection {
+        top: 1000px;
+    }
+}
+
+@media (max-width: 490px) {
+    .contactSection {
+        top: 1150px;
+    }
+}
+
+
+
+@media (max-width: 394px) {
+    .contactSection {
+        top: 1100px;
+    }
 }

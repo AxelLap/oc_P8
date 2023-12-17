@@ -17,3 +17,17 @@
     width: 80%;
     object-fit: cover;
 }
+
+@media (max-width: 667.99px) {
+    .roundIconWrapper {
+        height: 50px;
+        width: 50px;
+    }
+}
+
+@media (max-width: 667.99px) {
+    .roundIconWrapper {
+        height: 50px;
+        width: 50px;
+    }
+}

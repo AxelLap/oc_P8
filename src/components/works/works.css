@@ -56,3 +56,23 @@
     border-radius: 30px;
     object-fit: cover;
 }
+
+@media (max-width: 667.99px) {
+    .worksSection {
+        height: 2300px;
+        top: 700px;
+    }
+
+    .worksContainer {
+        flex-direction: column;
+        gap: 50px;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 25px;
+    }
+
+    .work {
+        width: 90%;
+        height: 450px;
+    }
+}

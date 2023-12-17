@@ -24,9 +24,11 @@ function Contact() {
                 <div className='contactContent'>
                     <p className='contactText'>Un projet ? Besoin d'un nouveau membre au sein de votre équipe ? <a className='emailLink' href='mailto:axellaplace.dev@gmail.com'>Envoyez moi un mail !</a></p>
                     <div className="networkWrapper">
-                        <p className='contactText'>Ou contactez moi sur mes réseaux sociaux :</p>
-                        <a href='https://www.linkedin.com/in/axel-laplace-48b2412a5/' target='_blank' rel="noreferrer"><div className='linkLogo'>  <i class="fa-brands fa-linkedin-in"></i></div></a>
-                        <a href='https://twitter.com/laplace_axel' target='_blank' rel="noreferrer"><div className='linkLogo'> <i className="fa-brands fa-x-twitter" ></i>   </div></a>
+                        <p className='contactText text2'>Ou contactez moi sur mes réseaux sociaux :</p>
+                        <div className='networkContainer'>
+                            <a href='https://www.linkedin.com/in/axel-laplace-48b2412a5/' target='_blank' rel="noreferrer"><div className='linkLogo'>  <i class="fa-brands fa-linkedin-in"></i></div></a>
+                            <a href='https://twitter.com/laplace_axel' target='_blank' rel="noreferrer"><div className='linkLogo'> <i className="fa-brands fa-x-twitter" ></i>   </div></a>
+                        </div>
                     </div>
 
                 </div>

@@ -25,6 +25,9 @@ function Header() {
                 <a href='https://github.com/AxelLap' target='_blank' rel="noreferrer">
                     <img src={git} alt="Logo git-hub" className="gitLogo" />
                 </a>
+                <a href='mailto:axellaplace.dev@gmail.com' className='mailLogo'>
+                    <i class="fa-regular fa-envelope"></i>
+                </a>
             </nav>
         </header>
     )

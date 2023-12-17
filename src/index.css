@@ -29,3 +29,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@media (max-width: 667.99px) {
+
+  h2,
+  h3 {
+    font-size: 1.8em;
+  }
+
+
+}

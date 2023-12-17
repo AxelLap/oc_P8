@@ -5,3 +5,10 @@
     gap: 25px;
 
 }
+
+@media (max-width: 667.99px) {
+    .toolsWrapper {
+        flex-wrap: wrap;
+        flex-shrink: none;
+    }
+}
