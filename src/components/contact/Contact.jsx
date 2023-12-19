@@ -1,6 +1,7 @@
 import './contact.css'
 import profilePic from '../../assets/black.jpg'
 import Tools from '../tools/Tools'
+import Footer from '../footer/Footer'
 
 
 import ScrollBtn from '../scrollbutton/ScrollBtn'
@@ -10,15 +11,15 @@ function Contact() {
 
         <section className="introducing">
 
-            <div className='introduceWrapper'>
+            <section className='introduceWrapper'>
                 <img src={profilePic} className='profile' alt='Axel Laplace' />
-                <section className="profileContainer">
+                <div className="profileContainer">
                     <h2 className='intrduceTitle'>À propos</h2>
                     <aside className="introduceText">Développeur web junior suite à une reconversion professionnelle. Je suis passionné de technologie et possède de solides connaissances aussi bien en frontend qu'en backend.<br></br> Formé aux méthodes agiles et au SCRUM je saurais mettre mon experience et ma créativité au service de votre entreprise.<br></br>
                         <Tools />
                     </aside>
-                </section>
-            </div>
+                </div>
+            </section>
             <section className='contactSection'>
                 <h2 className='contactTitle'>Mes contacts</h2>
                 <div className='contactContent'>
@@ -38,6 +39,8 @@ function Contact() {
                 scrollValue={0}
                 type={'dropDownBtn returnOnTop'}
             />
+            <div className="anchor" id='contacts'></div>
+            <Footer />
         </section>
 
     )

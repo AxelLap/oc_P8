@@ -9,6 +9,8 @@ export const worksContent = [
                 '/images/gipeSlides/gipe-s-2.png',
                 '/images/gipeSlides/gipe-s-3.png',
                 '/images/gipeSlides/gipe-s-4.png',
+                '/images/gipeSlides/gipe-s-5.png',
+
             ],
         'skills': [
             "html",
@@ -16,7 +18,11 @@ export const worksContent = [
             "javaScript",
             "web-design",
             "responsive design"
-        ]
+        ],
+        'git': 'false',
+        'gitLink': 'none',
+        'uploaded': 'true',
+        'siteLink': 'http://gipecrea.free.fr/'
     },
     {
         'id': "sophie",
@@ -26,6 +32,11 @@ export const worksContent = [
             '/images/sophieSlides/sophie-s-1.png',
             '/images/sophieSlides/sophie-s-2.png',
             '/images/sophieSlides/sophie-s-3.png',
+            '/images/sophieSlides/sophie-s-4.png',
+            '/images/sophieSlides/sophie-s-5.png',
+
+
+
         ],
         'skills': [
             "html",
@@ -33,7 +44,11 @@ export const worksContent = [
             "javaScript",
             "gestion du CRUD coté front",
             "Authentification utilisateur"
-        ]
+        ],
+        'git': 'true',
+        'gitLink': 'https://github.com/AxelLap/sophie_bluel.git',
+        'uploaded': 'false',
+        'silteLink': 'none'
     },
     {
         'id': 'kasa',
@@ -45,6 +60,8 @@ export const worksContent = [
                 '/images/kasaSlides/kasa-s-2.png',
                 '/images/kasaSlides/kasa-s-3.png',
                 '/images/kasaSlides/kasa-s-4.png',
+                '/images/kasaSlides/kasa-s-5.png',
+
 
             ],
         'skills': [
@@ -54,7 +71,11 @@ export const worksContent = [
             "useParams - useState - useEffect ",
             "Toggles et animations",
             "Slider d'images"
-        ]
+        ],
+        'git': 'true',
+        'gitLink': 'https://github.com/AxelLap/kasa.git',
+        'uploaded': 'false',
+        'silteLink': 'none'
     },
     {
         'id': 'mvg',
@@ -66,6 +87,8 @@ export const worksContent = [
                 '/images/mvgSlides/mvg-s-2.png',
                 '/images/mvgSlides/mvg-s-3.png',
                 '/images/mvgSlides/mvg-s-4.png',
+                '/images/mvgSlides/mvg-s-5.png',
+
 
             ],
         'skills': [
@@ -76,6 +99,10 @@ export const worksContent = [
             "Authentification utilisateur",
             "Sécurisation de données",
             "green code"
-        ]
+        ],
+        'git': 'true',
+        'gitLink': 'https://github.com/AxelLap/mon_vieux_grimoire.git',
+        'uploaded': 'false',
+        'silteLink': 'none'
     }
 ]

@@ -24,8 +24,6 @@ header {
 }
 
 
-
-
 ul {
     padding: 0px;
     display: flex;
@@ -64,12 +62,60 @@ ul {
     margin-right: 1px;
 }
 
+.navBurger {
+    display: none;
+}
+
+.burgerLine {
+    display: none;
+}
+
+.hiddenNav {
+
+    display: none;
+    transition: all 0.3s ease
+}
+
+.responsiveNav {
+    flex-direction: column;
+    width: 100vw;
+    margin: auto;
+    padding: 30px;
+    align-items: center;
+    height: fit-content;
+    background-color: black;
+    border: solid 2px white;
+    border-radius: 30px;
+    z-index: 1;
+    position: relative;
+    top: 81px;
+    transition: all 0.3s ease;
+}
+
+.fa-xmark {
+    color: white;
+    position: absolute;
+    font-size: 1.1em;
+    top: 10px;
+    right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+.burgerLink {
+    color: white;
+}
+
 @media (max-width: 667.99px) {
     header {
         height: 60px;
     }
 
-    header ul {
+    .fa-xmark {
+        display: flex;
+    }
+
+    .navList {
         gap: 20px;
     }
 
@@ -78,5 +124,50 @@ ul {
         height: 40px;
         width: 40px;
         font-size: 0.5em;
+    }
+
+    .navBurger {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+
+    }
+
+    .burgerLine,
+    .burgerLine::before,
+    .burgerLine::after {
+        display: block;
+        min-width: 40px;
+        width: 40px;
+        height: 3px;
+        position: relative;
+        background-color: white;
+        border-radius: 5px;
+    }
+
+    .burgerLine::before,
+    .burgerLine::after {
+        content: "";
+        position: absolute;
+        left: 0;
+    }
+
+    .burgerLine::before {
+        transform: translateY(-12px);
+    }
+
+
+    .burgerLine::after {
+        transform: translateY(12px);
+    }
+
+
+    .navList {
+        display: none;
     }
 }

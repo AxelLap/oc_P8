@@ -6,7 +6,7 @@
 
 }
 
-@media (max-width: 667.99px) {
+@media (max-width: 950px) {
     .toolsWrapper {
         flex-wrap: wrap;
         flex-shrink: none;

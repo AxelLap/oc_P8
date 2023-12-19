@@ -8,6 +8,7 @@ import Home from './pages/home/Home';
 import WorkPage from './pages/workpage/WorkPage';
 
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -17,6 +18,7 @@ root.render(
         <Route path='/work/:id' element={<WorkPage />}></Route>
       </Routes>
     </BrowserRouter>
+
   </React.StrictMode>
 );
 

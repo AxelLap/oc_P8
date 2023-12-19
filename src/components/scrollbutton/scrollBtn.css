@@ -17,7 +17,7 @@
 
 .returnOnTop {
     transform: rotate(180deg);
-    bottom: 4pxpx;
+    bottom: 4px;
 }
 
 .dropDownBtn:hover {

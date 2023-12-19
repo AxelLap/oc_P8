@@ -108,6 +108,13 @@
     padding-bottom: 5px;
 }
 
+@media (min-width: 668px) and (max-width:1450px) {
+
+    .sliderWrapper {
+        width: 100%;
+    }
+}
+
 @media (max-width: 667.99px) {
     .sliderWrapper {
         width: 90%;

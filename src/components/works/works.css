@@ -61,6 +61,7 @@
     .worksSection {
         height: 2300px;
         top: 700px;
+        justify-content: center;
     }
 
     .worksContainer {
@@ -74,5 +75,6 @@
     .work {
         width: 90%;
         height: 450px;
+        margin: auto;
     }
 }

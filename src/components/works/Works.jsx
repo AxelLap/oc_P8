@@ -14,7 +14,7 @@ function Works() {
     return (
 
         <section className='worksSection'>
-            <h2 className='workTitle'>Mes Projets</h2>
+            <h2 className='workTitle' >Mes Projets</h2>
 
             <div className='worksContainer'>
 
@@ -33,6 +33,7 @@ function Works() {
                 scrollValue={((window.innerHeight) * 0.9) * 2}
                 type={'dropDownBtn'}
             />
+            <div className='anchor2' id='àpropos'></div>
         </section>
     )
 

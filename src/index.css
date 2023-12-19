@@ -23,6 +23,21 @@ h1 {
   color: #02145D;
 }
 
+.anchor {
+  position: absolute;
+  bottom: 60px;
+}
+
+.anchor2 {
+  position: absolute;
+  bottom: -40px;
+}
+
+.anchor3 {
+  position: absolute;
+  top: -60px;
+}
+
 
 
 code {

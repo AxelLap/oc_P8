@@ -5,10 +5,11 @@ import ScrollBtn from '../scrollbutton/ScrollBtn'
 
 function About() {
     return (
-        <section className='aboutSection'>
+        <section className='aboutSection' >
+            <div className="anchor3" id='compétences'></div>
             <aside className='aboutContent'>
                 <div className='sideText'>
-                    <h1>Axel Laplace Développeur Web </h1>
+                    <h1 >Axel Laplace Développeur Web </h1>
                     <AboutSlider />
                 </div>
             </aside>
@@ -16,6 +17,7 @@ function About() {
                 scrollValue={((window.innerHeight) * 0.9)}
                 type={'dropDownBtn'}
             />
+            <div className='anchor' id='projets'></div>
         </section>
     )
 }
