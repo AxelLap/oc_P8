@@ -84,7 +84,7 @@
     justify-content: center;
     height: 50px;
     width: 220px;
-    font-size: 1.5em;
+    font-size: 1.3em;
     color: black;
     background-color: white;
     border: solid 2px black;
@@ -163,7 +163,7 @@
     }
 }
 
-@media (max-width: 770px) {
+@media (max-width: 800px) {
     .workSkillsList {
         display: flex;
         flex-direction: column;
