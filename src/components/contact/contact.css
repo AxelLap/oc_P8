@@ -174,7 +174,7 @@ a {
 
 @media (min-width: 668px) and (max-width:1450px) {
     .profile {
-        box-shadow: none;
+        box-shadow: -40px 35px 0px 2px rgba(2, 20, 93, 0.8);
         width: 20%;
         height: fit-content;
     }
@@ -256,12 +256,17 @@ a {
     }
 
     .networkWrapper {
+        width: 80%;
+        margin: 0px auto;
         flex-direction: column;
     }
 
     .networkContainer {
         width: 90%;
         margin: auto;
+        justify-content: center;
+        align-items: center;
+
     }
 }
 

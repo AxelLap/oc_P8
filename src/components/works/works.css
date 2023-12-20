@@ -77,4 +77,10 @@
         height: 450px;
         margin: auto;
     }
+
+    .work:hover {
+        width: 90%;
+        height: 450px;
+        margin: auto;
+    }
 }

@@ -1,0 +1,10 @@
+.homePageContent {
+    position: relative;
+    height: 300vh;
+}
+
+@media (max-width: 667.99px) {
+    .homePageContent {
+        height: 4600px;
+    }
+}

@@ -1,11 +1,12 @@
 .workPageSection {
-    height: 90vh;
+
     width: 95%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 11vh auto 1vh;
+    margin: 30px auto 1vh;
     box-sizing: border-box;
+
 }
 
 
@@ -14,12 +15,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 10vh;
+    margin-top: 5vh;
 }
 
 .return {
     color: black;
     text-decoration: underline;
+    font-size: 1.5em;
 }
 
 .currentWorkTitle {
@@ -31,6 +33,7 @@
     width: 80%;
     margin: 2vh auto 2vh;
     text-align: center;
+    font-size: 1.5em;
 }
 
 .workSlider {
@@ -38,10 +41,13 @@
     flex-direction: column;
     justify-content: center;
     position: relative;
+    width: 90%;
+    height: 700px;
+    margin: auto;
 }
 
 .sliderImg {
-    width: 60%;
+    width: 70%;
     height: 100%;
     margin: auto;
     margin: 1vh auto 1vh;
@@ -61,6 +67,7 @@
     width: 5%;
     display: flex;
     margin: auto;
+    font-size: 1.5em;
 }
 
 
@@ -75,14 +82,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 70px;
-    width: 170px;
-    font-size: 1em;
+    height: 50px;
+    width: 220px;
+    font-size: 1.5em;
     color: black;
     background-color: white;
     border: solid 2px black;
-    border-radius: 10px;
-    margin: auto;
+    border-radius: 30px;
+    margin: 25px auto;
     cursor: pointer;
     gap: 10px;
     transition: all 0.2s ease;
@@ -123,6 +130,56 @@
 .hidden {
     display: none;
 }
+
+
+
+.workSkill {
+    font-size: 1.5em;
+    margin: 0px 15px;
+}
+
+@media (min-width: 668px) and (max-width:1450px) {
+    .sliderImg {
+        width: 80%;
+
+    }
+
+    .rightChevron {
+        right: 3vw;
+    }
+
+    .leftChevron {
+        left: 3vw;
+    }
+}
+
+@media (min-width: 668px) and (max-width:1000px) {
+    .workHeader {
+        background: #0082c8;
+    }
+
+    .navItem {
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 770px) {
+    .workSkillsList {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .workSkillsContainer {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
 
 @media (max-width: 667.99px) {
     .workPageSection {
@@ -171,6 +228,8 @@
         margin-top: 5px;
     }
 
+
+
     .workSlider {
         height: 500px;
         width: 95%;
@@ -181,19 +240,7 @@
 
     }
 
-    .workSkillsContainer {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
 
-    .workSkillsList {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
 
     .leftChevron {
         display: flex;
@@ -208,7 +255,7 @@
     }
 
     .counter {
-        font-size: 1.5em;
+
         position: relative;
         top: 7px;
         width: fit-content;

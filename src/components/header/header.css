@@ -106,6 +106,21 @@ ul {
     color: white;
 }
 
+@media (min-width: 668px) and (max-width:1000px) {
+
+    .gitLogo,
+    .mailLogo {
+        height: 7vh;
+        width: 7vh;
+        font-size: 0.8em;
+        top: 5vh;
+    }
+
+    ul {
+        gap: 30px;
+    }
+}
+
 @media (max-width: 667.99px) {
     header {
         height: 60px;

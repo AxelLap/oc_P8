@@ -31,6 +31,13 @@ li:hover .line {
     transition: all 0.2s ease;
 }
 
+@media (min-width: 668px) and (max-width:1000px) {
+
+    .navItem {
+        font-size: 1.2em;
+    }
+}
+
 @media (max-width: 667.99px) {
     .navItem {
         font-size: 1em;

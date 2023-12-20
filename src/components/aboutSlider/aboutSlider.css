@@ -1,6 +1,6 @@
 .sliderWrapper {
-    margin: 60px auto 80px;
-    height: 70%;
+    margin: 20px auto 0px;
+    height: 80%;
     width: 80%;
     overflow: hidden;
     flex-wrap: nowrap;
@@ -121,6 +121,10 @@
         height: 500px;
         margin: 25px auto;
 
+    }
+
+    .skillTitle {
+        font-size: 1.3em;
     }
 
     .iconsWrapper {

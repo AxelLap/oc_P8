@@ -1,7 +1,7 @@
 import './contact.css'
 import profilePic from '../../assets/black.jpg'
 import Tools from '../tools/Tools'
-import Footer from '../footer/Footer'
+
 
 
 import ScrollBtn from '../scrollbutton/ScrollBtn'
@@ -40,7 +40,7 @@ function Contact() {
                 type={'dropDownBtn returnOnTop'}
             />
             <div className="anchor" id='contacts'></div>
-            <Footer />
+
         </section>
 
     )
