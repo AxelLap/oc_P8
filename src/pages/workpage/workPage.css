@@ -107,6 +107,7 @@
     justify-content: center;
     text-decoration: none;
     gap: 10px;
+    border-radius: 30px;
 }
 
 .linkBtn:hover>.webLink {
